@@ -1,0 +1,603 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Hello, world!</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <style>
+    .marhead {
+      height: 30px;
+      color: white;
+      background: rgb(62, 13, 62);
+      position: fixed;
+    }
+
+    .bgcol {
+      /* height: 530px; */
+      background: whitesmoke;
+    }
+
+    .heading1 {
+      font-size: 40px;
+      font-weight: bold;
+      margin-top: 15%;
+      margin-left: 5%;
+    }
+
+    .circle {
+      height: 240px;
+    }
+
+    .heart {
+      border-radius: 70px 0% 70px 0%;
+    }
+
+    @media(max-width:700px) {
+      .circle {
+        height: auto;
+      }
+
+      .heart {
+        width: auto;
+      }
+
+      .bg {
+        width: auto;
+      }
+    }
+
+    .image {
+      transition: .5s;
+    }
+
+    .image:hover {
+      transform: scale(0.8);
+    }
+
+    .bg {
+      background: papayawhip;
+      /* height: 500px; */
+      margin-top: 0%;
+    }
+
+    /* .card:hover{
+    transform: scale(0.5s);
+   } */
+    .col-md-3 {
+
+      float: left;
+      /* margin-top: -150px; */
+    }
+
+    .rate {
+      background: rgb(236, 210, 210);
+    }
+
+    .card {
+      transition: transform 0.3s ease;
+      box-shadow: 5px 5px 10px 10px rgb(202, 111, 202);
+    }
+
+    .card:hover {
+      transform: scale(0.7);
+    }
+
+    .secr {
+      margin-top: 30px;
+    }
+
+    .learn {
+      margin-top: 30px;
+      text-align: center;
+
+    }
+    .icon-style{
+      border-radius: 1px solid black !important;
+      padding: 5px;
+    }
+
+    .clgimg {
+      background: whitesmoke;
+      /* height: 400px; */
+      /* margin-top: 20px; */
+    }
+    /* .text-hii{
+      font-size: 5vw;
+    } */
+    .foot{
+      background:whitesmoke;
+      /* height: 300px; */
+    }
+    /* .pos{
+      position: fixed;
+    } */
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 p-0">
+        <marquee behavior="alternate" direction="left" class="marhead">Welcome to My College...</marquee>
+      </div>
+
+      <div class="col-sm-12 p-0 pos">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="font-size: 30px; font-weight: bold;color: green;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">KRISHNA
+              College</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="home.html"
+                    style="font-weight: bold; font-size: 20px;">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="" style="font-weight: bold;font-size: 20px;">Department</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="font-weight: bold; font-size: 20px;">Course</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html" style="font-weight: bold; font-size: 20px;">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html" style="font-weight: bold; font-size: 20px;">About</a>
+                </li>
+
+              </ul>
+              <a href="login29.html">
+                <button type="button" class="btn btn-outline-info" 
+                style="margin-left: 90px; margin-top: 10px;  border-radius: 20px 20px;width: 100px;" >Login</button>
+              </a>&emsp;
+              <button type="button" class="btn btn-outline-success "
+                style="margin-left: 10px; margin-top: 10px; border-radius: 20px 20px;width: 120px;">Register</button>
+
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+    <!-- first image start -->
+    <div class="row bgcol">
+      <div class="col-sm-6">
+        <h2 class="heading1">Build Your Future. <br> Choose Your <br> Course</h2>
+        <p style="margin-left: 5%;">Lorem ipsum dolor sit amet consecteturhuhfs.</p>
+        <button
+          style="background: rgb(52, 183, 52);color: white; width: 100px; border-radius: 15px 15px; margin-left: 5%;">Start
+          Now</button>
+      </div>
+      <div class="col-sm-6">
+        <div class="row">
+          <div class="col-6 mt-2">
+            <img
+              src="https://thumbs.dreamstime.com/z/young-laughing-woman-student-glasses-backpack-holding-passport-boarding-pass-tickets-credit-card-isolated-blue-139521112.jpg"
+              alt="" class="rounded-circle img-fluid circle image">
+          </div>
+          <div class="col-6 mt-2">
+            <img
+              src="https://thumbs.dreamstime.com/b/student-preparing-exams-late-night-home-student-preparing-exams-late-night-home-111230536.jpg"
+              alt="" class="heart img-fluid circle image">
+          </div>
+          <div class="col-6 mt-2">
+            <img
+              src="https://en.idei.club/uploads/posts/2023-06/1685831604_en-idei-club-p-university-students-in-library-dizain-inst-70.jpg"
+              alt="" class="rounded-circle img-fluid circle image">
+          </div>
+          <div class="col-6 mt-2">
+            <img
+              src="https://avatars.mds.yandex.net/i?id=4c01fff4d67981da747464f4d75ca8ead3c71d80-9025626-images-thumbs&ref=rim&n=33&w=453&h=300"
+              alt="" class="heart img-fluid circle image">
+          </div>
+        </div>
+        <!-- 3rd image -->
+      </div>
+
+    </div>
+
+    <!-- cards start -->
+    <div class="row bg py-5">
+      <div class="col-sm-12">
+        <h1 class="text-center">Department</h1>
+        <p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, deleniti?
+        </p>
+      </div>
+      <div class="col-sm-12">
+        <!-- cards start in box -->
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card">
+              <i class="bi bi-heart-pulse"
+                style="font-size:60px; color:green; font-weight: bold;text-align: center;"></i>
+              <div class="card-body">
+                <h5 class="card-title" style="font-size: 30px; color: rgb(216, 179, 29);text-align: center;">Biology
+                </h5>
+                <p class="card-text" style="text-align: center; font-size: 20px; font-weight: 500;">Course 20</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <!-- <img src="..." class="card-img-top" alt="..."> -->
+              <i class="bi bi-file-earmark-richtext"
+                style="font-size:60px; color:green; font-weight: bold;text-align: center;"></i>
+              <div class="card-body">
+                <h5 class="card-title" style="font-size: 30px; color: rgb(216, 179, 29);text-align: center;">Diploma
+                </h5>
+                <p class="card-text" style="text-align: center; font-size: 20px; font-weight: 500;">Course 20</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <i class="bi bi-globe-americas"
+                style="font-size:60px; color:green; font-weight: bold;text-align: center;"></i>
+              <div class="card-body">
+                <h5 class="card-title " style="font-size: 30px; color: rgb(216, 179, 29);text-align: center; ">Economics
+                </h5>
+                <p class="card-text" style="text-align: center; font-size: 20px; font-weight: 500;">Course 20</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <i class="bi bi-house-fill"
+                style="font-size:60px; color:green; font-weight: bold;text-align: center;"></i>
+              <div class="card-body">
+                <h5 class="card-title" style="font-size: 30px; color: rgb(216, 179, 29);text-align: center;">Medical
+                </h5>
+                <p class="card-text" style="text-align: center; font-size: 20px; font-weight: 500;">Course 20</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- second card -->
+      <div class="col-sm-12 ">
+        <!-- cards start in box -->
+        <div class="row mt-5 ">
+          <div class="col-md-3">
+            <div class="card">
+              <i class="bi bi-heart-pulse"
+                style="font-size:60px; color:green; font-weight: bold;text-align: center;"></i>
+              <div class="card-body">
+                <h5 class="card-title" style="font-size: 30px; color: rgb(216, 179, 29);text-align: center;">Biology
+                </h5>
+                <p class="card-text" style="text-align: center; font-size: 20px; font-weight: 500;">Course 20</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <!-- <img src="..." class="card-img-top" alt="..."> -->
+              <i class="bi bi-file-earmark-richtext"
+                style="font-size:60px; color:green; font-weight: bold;text-align: center;"></i>
+              <div class="card-body">
+                <h5 class="card-title" style="font-size: 30px; color: rgb(216, 179, 29);text-align: center;">Diploma
+                </h5>
+                <p class="card-text" style="text-align: center; font-size: 20px; font-weight: 500;">Course 20</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <i class="bi bi-globe-americas"
+                style="font-size:60px; color:green; font-weight: bold;text-align: center;"></i>
+              <div class="card-body">
+                <h5 class="card-title " style="font-size: 30px; color: rgb(216, 179, 29);text-align: center; ">Economics
+                </h5>
+                <p class="card-text" style="text-align: center; font-size: 20px; font-weight: 500;">Course 20</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <i class="bi bi-house-fill"
+                style="font-size:60px; color:green; font-weight: bold;text-align: center;"></i>
+              <div class="card-body">
+                <h5 class="card-title" style="font-size: 30px; color: rgb(216, 179, 29);text-align: center;">Medical
+                </h5>
+                <p class="card-text" style="text-align: center; font-size: 20px; font-weight: 500;">Course 20</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- second end card -->
+    </div>
+    <!-- Collaborate code -->
+    <div class="row rate py-5">
+      <div class="col-sm-12 mb-3">
+        <h2 style="text-align: center;">We Collaborate with 130+ Leading <br> University and Companies</h2>
+      </div>
+      <div class="col-sm-12">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card mb-3 bg-transparent border-0">
+              <div class="row g-0">
+                <div class="col-md-4 my-auto">
+                  <img
+                    src="https://banner2.cleanpng.com/20180921/bty/kisspng-university-college-oxford-collegiate-university-s-home-oxford-outfitters-5ba4bad7be6729.2532531415375223917799.jpg"
+                    class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">OXFORD <br> UNIVAERSITY</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card mb-3 bg-transparent border-0">
+              <div class="row g-0">
+                <div class="col-md-4 my-auto">
+                  <img
+                    src="https://banner2.cleanpng.com/20180921/bty/kisspng-university-college-oxford-collegiate-university-s-home-oxford-outfitters-5ba4bad7be6729.2532531415375223917799.jpg"
+                    class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">OXFORD <br> UNIVAERSITY</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card mb-3 bg-transparent border-0">
+              <div class="row g-0">
+                <div class="col-md-4 my-auto">
+                  <img src="https://encycolorpedia.com/schools/us/berry-college.png" class="img-fluid rounded-start"
+                    alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">OXFORD <br> UNIVAERSITY</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card mb-3 bg-transparent border-0">
+              <div class="row g-0">
+                <div class="col-md-4 my-auto">
+                  <img src="https://s3.amazonaws.com/quiin/vendors/logos/000/008/686/original/MilesCrest.png?1587527223"
+                    class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">OXFORD <br> UNIVAERSITY</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- our course code start -->
+    <div class="row">
+      <div class="col-sm-12">
+        <h3 style="text-align: center; font-weight: bold;">Our Course</h3>
+        <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, laborum.</p>
+      </div>
+      <div class="col-sm-12">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://avatars.mds.yandex.net/i?id=2f00ff4e9cc6caa4107a7a20c406be03518b8b99-8282002-images-thumbs&ref=rim&n=33&w=411&h=300"
+                class="card-img-top" alt="..." height="200" width="200">
+              <div class="card-body">
+                <h5 class="card-title" style="font-weight: bold;">Advanced Drwaing & Sktech System</h5>
+                <p class="card-text">Duration &emsp; 4 years &emsp; Fee</p>
+                <a href="#" class="btn btn-success" style=" border-radius: 20px 20px  ">Reset More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" >
+              <img
+                src="https://gas-kvas.com/uploads/posts/2023-01/1674670031_gas-kvas-com-p-mozg-konturnii-risunok-22.jpg"
+                class="card-img-top" alt="..." height="200" width="200">
+              <div class="card-body">
+                <h5 class="card-title" style="font-weight: bold;">Advanced Drwaing & Sktech System</h5>
+                <p class="card-text">Duration &emsp; 4 years &emsp; Fee</p>
+                <a href="#" class="btn btn-success" style=" border-radius: 20px 20px  ">Reset More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" >
+              <img
+                src="https://img.huffingtonpost.com/asset/5926b76b200000290016ecb8.jpeg?cache=x9wMIBY1rf&amp;ops=1200_630"
+                class="card-img-top" alt="..." height="200" width="200">
+              <div class="card-body">
+                <h5 class="card-title" style="font-weight: bold;">Advanced Drwaing & Sktech System</h5>
+                <p class="card-text">Duration &emsp; 4 years &emsp; Fee</p>
+                <a href="#" class="btn btn-success" style=" border-radius: 20px 20px  ">Reset More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card" >
+              <img src="https://i.pinimg.com/originals/62/2f/6b/622f6bb33b65ddd8e62738963c918900.jpg"
+                class="card-img-top" alt="..." height="200" width="200">
+              <div class="card-body">
+                <h5 class="card-title" style="font-weight: bold;">Advanced Drwaing & Sktech System</h5>
+                <p class="card-text">Duration &emsp; 4 years &emsp; Fee</p>
+                <a href="#" class="btn btn-success" style=" border-radius: 20px 20px  ">Reset More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- second row card -->
+      <div class="col-sm-12 secr">
+        <div class="row">
+          <div class="col-md-3 mt-3">
+            <div class="card" >
+              <img
+                src="https://avatars.mds.yandex.net/i?id=2f00ff4e9cc6caa4107a7a20c406be03518b8b99-8282002-images-thumbs&ref=rim&n=33&w=411&h=300"
+                class="card-img-top" alt="..." height="200" width="200">
+              <div class="card-body">
+                <h5 class="card-title" style="font-weight: bold;">Advanced Drwaing & Sktech System</h5>
+                <p class="card-text">Duration &emsp; 4 years &emsp; Fee</p>
+                <a href="#" class="btn btn-success" style=" border-radius: 20px 20px  ">Reset More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mt-3">
+            <div class="card" >
+              <img
+                src="https://gas-kvas.com/uploads/posts/2023-01/1674670031_gas-kvas-com-p-mozg-konturnii-risunok-22.jpg"
+                class="card-img-top" alt="..." height="200" width="200">
+              <div class="card-body">
+                <h5 class="card-title" style="font-weight: bold;">Advanced Drwaing & Sktech System</h5>
+                <p class="card-text">Duration &emsp; 4 years &emsp; Fee</p>
+                <a href="#" class="btn btn-success" style=" border-radius: 20px 20px  ">Reset More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mt-3">
+            <div class="card" >
+              <img
+                src="https://img.huffingtonpost.com/asset/5926b76b200000290016ecb8.jpeg?cache=x9wMIBY1rf&amp;ops=1200_630"
+                class="card-img-top" alt="..." height="200" width="200">
+              <div class="card-body">
+                <h5 class="card-title" style="font-weight: bold;">Advanced Drwaing & Sktech System</h5>
+                <p class="card-text">Duration &emsp; 4 years &emsp; Fee</p>
+                <a href="#" class="btn btn-success" style=" border-radius: 20px 20px  ">Reset More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 mt-3">
+            <div class="card" >
+              <img src="https://i.pinimg.com/originals/62/2f/6b/622f6bb33b65ddd8e62738963c918900.jpg"
+                class="card-img-top" alt="..." height="200" width="200">
+              <div class="card-body">
+                <h5 class="card-title" style="font-weight: bold;">Advanced Drwaing & Sktech System</h5>
+                <p class="card-text">Duration &emsp; 4 years &emsp; Fee</p>
+                <a href="#" class="btn btn-success" style=" border-radius: 20px 20px  ">Reset More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Learn More btn -->
+    <div class="row">
+      <div class="col-sm-12 learn">
+        <button type="button" class="btn btn-outline-dark" style="text-align: center; border-radius: 20px 20px;">Learn
+          More</button>
+      </div>
+    </div>
+    <!-- College Image -->
+    <div class="row clgimg mt-5">
+      <div class="col-sm-12">
+        <h1 style="font-size: 30px; font-weight: bold; text-align: center; margin-top: 20px;">College Image</h1>
+        <p style="text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, enim.</p>
+      </div>
+      <!-- image start -->
+      
+
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="https://i.pinimg.com/736x/ca/41/22/ca4122027f64a35a54a00bc311c9ab7a.jpg" class="card-img-top"
+            alt="..." height="420px" width="200">
+        </div>
+        <div class="col-sm-8">
+          <div class="row">
+            <div class="col-sm-6">
+              <img src="https://assets-global.website-files.com/61367e26c54d25084178c74d/62597e7387271041e3f68cb6_Untitled%20design%20(1)-p-1600.jpg"
+              class="card-img-top" alt="..." height="200" width="100%">
+            </div>
+            <div class="col-sm-6">
+              <img src="https://i.pinimg.com/originals/62/2f/6b/622f6bb33b65ddd8e62738963c918900.jpg"
+              class="card-img-top" alt="..." height="200" width="100%">
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-sm-6">
+              <img src="https://assets-global.website-files.com/61367e26c54d25084178c74d/62597e7387271041e3f68cb6_Untitled%20design%20(1)-p-1600.jpg"
+              class="card-img-top" alt="..." height="200" width="100%">
+            </div>
+            <div class="col-sm-6">
+              <img src="https://thumbs.dreamstime.com/b/college-students-studying-class-group-multiethnic-lecture-room-33914771.jpg"
+              class="card-img-top" alt="..." height="200" width="100%">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <h1 class="text-hii">hiiiii</h1> -->
+    </div>
+    <!-- footer start  -->
+    <div class="row foot">
+      <div class="col-sm-3">
+        <h2 style="margin-top: 20%;">About Us</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum quis voluptatum dolores nisi tempora similique cumque? Illo debitis earum itaque?</p>
+        <i class="bi bi-facebook icon-style" style="font-size: 30px;"></i>&emsp;
+        <i class="bi bi-youtube" style="font-size: 30px;"></i>&emsp;
+        <i class="bi bi-twitter" style="font-size: 30px;"></i>&emsp;
+        <i class="bi bi-whatsapp" style="font-size: 30px;"></i>
+      </div>
+      <div class="col-sm-3">
+        <h2 style="margin-top: 20%;">Quick Link</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum quis voluptatum dolores nisi tempora similique cumque? Illo debitis earum itaque?</p>
+      </div>
+      <div class="col-sm-3">
+        <h2 style="margin-top: 20%;">Quick Link</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum quis voluptatum dolores nisi tempora similique cumque? Illo debitis earum itaque?</p>
+      </div>
+      <div class="col-sm-3">
+        <h2 style="margin-top: 20%;">Subscribe</h2>
+        <p>Deno2024@gmail.com <br> www.demoexample.com <br> +12365455 91 & +5487164946</p>
+        <input type="text" placeholder="Enter your email" style="text-align: center;">
+        <button><i class="bi bi-arrow-right"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+<!-- flaticon -->
+
+</html>
